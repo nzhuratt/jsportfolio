@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #e7e7e7;
+}
+.navbar {
+  background: transparent;
+}
+.logo-image {
+  width: 10%;
+}
+.nav-link, 
+.navbar-brand {
+  color: black;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler-icon {
+  background-color: transparent !important;
+}
+.navbar-toggler-icon span {
+  background-color: black !important;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  color: black !important;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover {
+  color: #000 !important;
+}
+.navbar-toggler {
+  position: absolute;
+  right: 10px;
+  top: 15px; 
+}
+.navbar-collapse {
+  transition: none !important;
+}
+@media (max-width: 991px) {
+  .navbar-collapse {
+    transition: none !important;
+    transform: translateX(85%) !important;
+  }
+}
+.header {
+  position: relative;
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+.description h1 {
+  color: black;
+  font-size: 75px;
+  font-weight: 200;
+}
+.description button {
+  border:1px solid black;
+  background: transparent;
+  border-radius: 20px;
+  color: black;
+  }
+  .description button:hover {
+  border:1px solid black;
+  background: black;
+  color: white;
+  }
+.circle {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+  filter: blur(120px);
+  border-radius: 50%; /* Make the circle */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  line-height: 2px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.ctext {
+  line-height: 180px;
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.pheight {
+  margin-bottom: 75px;
+}
+.features img {
+  margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+border-radius: 20px;
+border: 1px solid black;
+color: black;
+background-color: transparent;
+}
+.features .btn {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+  color: white;
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 15px 0 30px;
+}
+h6 {
+  padding-top: 50px;
+}
+.footer-copyright {
+  color: #666;
+  padding: 15px 0;
+}
+  
+  
+  
+    
